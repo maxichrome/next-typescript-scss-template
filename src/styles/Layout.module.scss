@@ -1,0 +1,11 @@
+@use './_content.scss' as content;
+
+.PageContainer {
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+.MainSection {
+  @include content.text-content;
+}
